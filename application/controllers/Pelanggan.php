@@ -7,6 +7,14 @@ class Pelanggan extends CI_Controller {
 	{
 		$this->load->view('pelanggan/indexpel');
 	}
+	public function layanan()
+	{
+		$this->load->view('pelanggan/layanan');
+	}
+	public function login()
+	{
+		$this->load->view('pelanggan/loginpel');
+	}
 }
 
 ?>
